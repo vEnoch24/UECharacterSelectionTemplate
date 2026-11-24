@@ -1,0 +1,14 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.7.0",
+  "FriendlyName": "Fighting Character Select",
+  "Description": "Customizable local fighting-game character selection with a Slate authoring studio.",
+  "Category": "User Interface",
+  "CanContainContent": true,
+  "IsBetaVersion": true,
+  "Modules": [
+    { "Name": "CharacterSelection", "Type": "Runtime", "LoadingPhase": "Default" },
+    { "Name": "CharacterSelectionEditor", "Type": "Editor", "LoadingPhase": "PostEngineInit" }
+  ]
+}

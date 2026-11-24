@@ -1,0 +1,593 @@
+{
+  "version": 1,
+  "chapters": [
+    {
+      "id": "chapter-01",
+      "title": "Start here",
+      "group": "GET STARTED",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Choose what you want to edit."
+        },
+        {
+          "type": "bullet",
+          "text": "Open Setup and select your launcher Blueprint."
+        },
+        {
+          "type": "bullet",
+          "text": "Click Use launcher's screen, roster & layout."
+        },
+        {
+          "type": "bullet",
+          "text": "Choose a page on the left, then choose its editing target."
+        },
+        {
+          "type": "bullet",
+          "text": "Check the asset path before making changes."
+        },
+        {
+          "type": "bullet",
+          "text": "Click Save selected assets when finished."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tip: Choosing an asset in Studio does not change what your game loads."
+        },
+        {
+          "type": "image",
+          "image": "images/chapter-01.png",
+          "caption": "Studio sidebar and the selected asset path"
+        }
+      ]
+    },
+    {
+      "id": "chapter-02",
+      "title": "Create a screen",
+      "group": "GET STARTED",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The wizard creates a connected selection screen."
+        },
+        {
+          "type": "bullet",
+          "text": "Open New setup and leave Starter Screen empty."
+        },
+        {
+          "type": "bullet",
+          "text": "Choose a name, folder and starter: Basic, animated 2D or 3D."
+        },
+        {
+          "type": "bullet",
+          "text": "For the 3D starter, also choose a Preview Mesh."
+        },
+        {
+          "type": "bullet",
+          "text": "Review the asset paths, then click Create setup."
+        },
+        {
+          "type": "bullet",
+          "text": "Add characters to the new roster and save."
+        },
+        {
+          "type": "bullet",
+          "text": "Place one generated launcher in your level, then press Play."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tip: Use Starter Screen only when you want to copy an existing design."
+        },
+        {
+          "type": "image",
+          "image": "images/chapter-02.png",
+          "caption": "Setup wizard with the seven generated asset paths"
+        }
+      ]
+    },
+    {
+      "id": "chapter-03",
+      "title": "Add characters",
+      "group": "GET STARTED",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Each fighter needs a character asset and a roster entry."
+        },
+        {
+          "type": "bullet",
+          "text": "Click Create new character in Setup."
+        },
+        {
+          "type": "bullet",
+          "text": "Give it a unique Character ID and a display name."
+        },
+        {
+          "type": "bullet",
+          "text": "Assign Portrait for the slot and Large Portrait for the preview."
+        },
+        {
+          "type": "bullet",
+          "text": "Add the asset on Roster and arrange the entries in your preferred order."
+        },
+        {
+          "type": "bullet",
+          "text": "Save, then check the character in Live preview."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tip: A locked character can be previewed when Allow Locked Slots is enabled, but cannot be selected."
+        },
+        {
+          "type": "image",
+          "image": "images/chapter-03.png",
+          "caption": "Character data beside its roster entry"
+        }
+      ]
+    },
+    {
+      "id": "chapter-04",
+      "title": "Arrange the slots",
+      "group": "DESIGN AND INPUT",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Set the layout first, then choose how players move."
+        },
+        {
+          "type": "bullet",
+          "text": "Open Grid layout to set columns, slot size and spacing."
+        },
+        {
+          "type": "bullet",
+          "text": "Adjust Placement to position slots inside the grid container."
+        },
+        {
+          "type": "bullet",
+          "text": "Open Navigation and choose Grid, Horizontal or Vertical."
+        },
+        {
+          "type": "bullet",
+          "text": "Choose Wrap to loop at an edge, or Stop to stay there."
+        },
+        {
+          "type": "bullet",
+          "text": "Compare Live preview and Play at the same screen size."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tip: Move the whole grid in Designer if its parent layout is in the wrong place."
+        },
+        {
+          "type": "image",
+          "image": "images/chapter-04.png",
+          "caption": "Grid placement and navigation at the same viewport resolution"
+        }
+      ]
+    },
+    {
+      "id": "chapter-05",
+      "title": "Change the look",
+      "group": "DESIGN AND INPUT",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Style each part of the screen separately."
+        },
+        {
+          "type": "bullet",
+          "text": "Open Slots, Character preview or Text & names."
+        },
+        {
+          "type": "bullet",
+          "text": "Choose the image, border or text widget you want to change."
+        },
+        {
+          "type": "bullet",
+          "text": "Edit its colors, font or alignment."
+        },
+        {
+          "type": "bullet",
+          "text": "Choose its Layout slot for spacing, or open Designer to change the layout."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tip: Shared widgets affect every screen using them; duplicate a widget when you need a separate design."
+        },
+        {
+          "type": "image",
+          "image": "images/chapter-05.png",
+          "caption": "Slot artwork and the shared player indicator in Designer"
+        }
+      ]
+    },
+    {
+      "id": "chapter-06",
+      "title": "Set up controls",
+      "group": "DESIGN AND INPUT",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Players join by pressing a key or controller button."
+        },
+        {
+          "type": "bullet",
+          "text": "Use Controls to change movement, confirm and cancel bindings."
+        },
+        {
+          "type": "bullet",
+          "text": "Use Players & joining to set starting focus and CPU selection rules."
+        },
+        {
+          "type": "bullet",
+          "text": "Use Join prompts to change the flashing message."
+        },
+        {
+          "type": "bullet",
+          "text": "Add sounds and key icons under Sounds & button hints."
+        },
+        {
+          "type": "bullet",
+          "text": "Test joining in Play; the join press is used only to join."
+        },
+        {
+          "type": "paragraph",
+          "text": "Remember: Each player needs a different device, and only one can use the keyboard. With CPU selection enabled, P1 chooses the opponent if P2 has not joined."
+        },
+        {
+          "type": "image",
+          "image": "images/chapter-06.png",
+          "caption": "Join prompts and two different devices joining"
+        }
+      ]
+    },
+    {
+      "id": "chapter-07",
+      "title": "Animate the slots",
+      "group": "ANIMATION AND PRESENTATION",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Slot motion shows which character each player is choosing."
+        },
+        {
+          "type": "bullet",
+          "text": "Open Slot animations and choose your slot widget."
+        },
+        {
+          "type": "bullet",
+          "text": "Try a preset such as Subtle, Pop or Lift."
+        },
+        {
+          "type": "bullet",
+          "text": "Adjust scale, tint and timing for each state."
+        },
+        {
+          "type": "bullet",
+          "text": "Use Idle for unused slots and Focused for the current cursor."
+        },
+        {
+          "type": "bullet",
+          "text": "Check Selected and Shared states with both players on one slot."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tip: Existing Blueprint animations restores your authored motion without deleting the timelines."
+        },
+        {
+          "type": "image",
+          "image": "images/chapter-07.png",
+          "caption": "Idle focused selected and shared slot states"
+        }
+      ]
+    },
+    {
+      "id": "chapter-08",
+      "title": "Animate portraits and text",
+      "group": "ANIMATION AND PRESENTATION",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Animate the portrait, name and subtitle separately."
+        },
+        {
+          "type": "bullet",
+          "text": "Open Portrait & text animations and choose a player preview."
+        },
+        {
+          "type": "bullet",
+          "text": "Try Fade, Slide or another preset."
+        },
+        {
+          "type": "bullet",
+          "text": "Expand an element and adjust its Entrance and Exit settings."
+        },
+        {
+          "type": "bullet",
+          "text": "Use Duration for speed and Delay for a later start."
+        },
+        {
+          "type": "bullet",
+          "text": "Test character changes with Animation preview enabled."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tip: The portrait and text swap together after the exit. If changes have no effect, check Animation sequencing for an override."
+        },
+        {
+          "type": "image",
+          "image": "images/chapter-08.png",
+          "caption": "Portrait name and subtitle entrance settings"
+        }
+      ]
+    },
+    {
+      "id": "chapter-09",
+      "title": "Choose 2D or 3D",
+      "group": "ANIMATION AND PRESENTATION",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Use artwork for 2D or a mesh for 3D."
+        },
+        {
+          "type": "bullet",
+          "text": "For 2D, open 2D presentation and choose Static Artwork or Sprite Frames."
+        },
+        {
+          "type": "bullet",
+          "text": "For frames, add textures in playback order and set the frame rate."
+        },
+        {
+          "type": "bullet",
+          "text": "For 3D, choose the character on 3D presentation."
+        },
+        {
+          "type": "bullet",
+          "text": "Set Preview Mode to Actor 3D and enable Override Presentation 3D."
+        },
+        {
+          "type": "bullet",
+          "text": "Assign a mesh, then adjust the camera and lighting."
+        },
+        {
+          "type": "bullet",
+          "text": "Use Add presentation host on the preview if its host is missing."
+        },
+        {
+          "type": "bullet",
+          "text": "Test in Play; optional animation clips must match the mesh skeleton."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tip: Character overrides replace the preview defaults for that fighter."
+        },
+        {
+          "type": "image",
+          "image": "images/chapter-09.png",
+          "caption": "2D artwork and a framed 3D skeletal preview"
+        }
+      ]
+    },
+    {
+      "id": "chapter-10",
+      "title": "Set animation order",
+      "group": "ANIMATION AND PRESENTATION",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Sequencing controls when the portrait and text appear."
+        },
+        {
+          "type": "bullet",
+          "text": "Open Animation sequencing and choose a preview or character."
+        },
+        {
+          "type": "bullet",
+          "text": "Try Together, Portrait first or Text first."
+        },
+        {
+          "type": "bullet",
+          "text": "Adjust Group Gap to add a pause between the groups."
+        },
+        {
+          "type": "bullet",
+          "text": "Choose Inherit to use the settings from the next level."
+        },
+        {
+          "type": "paragraph",
+          "text": "Priority: Character override, then player override, then shared sequence. Wait For Entrance delays the confirmation animation, not match travel."
+        },
+        {
+          "type": "image",
+          "image": "images/chapter-10.png",
+          "caption": "Sequence inheritance and portrait first timing"
+        }
+      ]
+    },
+    {
+      "id": "chapter-11",
+      "title": "Try Live preview",
+      "group": "TEST AND REUSE",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Try your layout and supported animations without starting Play."
+        },
+        {
+          "type": "bullet",
+          "text": "Choose Player 1 or Player 2 and use the direction buttons."
+        },
+        {
+          "type": "bullet",
+          "text": "Use Confirm and Cancel to check selection states."
+        },
+        {
+          "type": "bullet",
+          "text": "Turn Animation preview on to see movement."
+        },
+        {
+          "type": "bullet",
+          "text": "Use Pause and Step to inspect timing, or Reset to start again."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use Play for real controllers, sounds, authored animation timing and custom Blueprint behavior."
+        },
+        {
+          "type": "image",
+          "image": "images/chapter-11.png",
+          "caption": "Live preview D-pad pause and step controls"
+        }
+      ]
+    },
+    {
+      "id": "chapter-12",
+      "title": "Reuse a theme",
+      "group": "TEST AND REUSE",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A theme copies settings from one setup to another."
+        },
+        {
+          "type": "bullet",
+          "text": "Select the source screen and layout, then create or choose a theme."
+        },
+        {
+          "type": "bullet",
+          "text": "On Themes & presets, click Capture selected setup into theme."
+        },
+        {
+          "type": "bullet",
+          "text": "Select the destination screen and layout, keeping the theme selected."
+        },
+        {
+          "type": "bullet",
+          "text": "Choose the sections to apply, then apply, validate and save."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tip: Slot Motion changes shared slot defaults. Themes do not copy widget layouts or animation timelines."
+        },
+        {
+          "type": "image",
+          "image": "images/chapter-12.png",
+          "caption": "Theme capture and the Apply sections checklist"
+        }
+      ]
+    },
+    {
+      "id": "chapter-13",
+      "title": "Start the match",
+      "group": "INTEGRATION AND HELP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pass the chosen characters to your game."
+        },
+        {
+          "type": "bullet",
+          "text": "Select your launcher and open Match handoff."
+        },
+        {
+          "type": "bullet",
+          "text": "Enable Store Selection On Ready to keep both choices."
+        },
+        {
+          "type": "bullet",
+          "text": "For level travel, enable Travel On Ready and choose a map."
+        },
+        {
+          "type": "bullet",
+          "text": "Place a CharacterSelectMatchReceiver in that map to read the choices."
+        },
+        {
+          "type": "bullet",
+          "text": "Include the destination map when packaging the game."
+        },
+        {
+          "type": "paragraph",
+          "text": "Your game must spawn the fighters and connect their gameplay controls."
+        },
+        {
+          "type": "image",
+          "image": "images/chapter-13.png",
+          "caption": "Launcher handoff and the destination receiver"
+        }
+      ]
+    },
+    {
+      "id": "chapter-14",
+      "title": "Fix a problem",
+      "group": "INTEGRATION AND HELP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Start with the setting closest to the problem."
+        },
+        {
+          "type": "bullet",
+          "text": "Edits missing: check that Studio and the launcher use the same assets."
+        },
+        {
+          "type": "bullet",
+          "text": "Layout different: compare the same resolution and inspect parent anchors."
+        },
+        {
+          "type": "bullet",
+          "text": "Portrait missing: check artwork, opacity and the active presentation mode."
+        },
+        {
+          "type": "bullet",
+          "text": "Animation unchanged: check the selected target and sequence overrides."
+        },
+        {
+          "type": "bullet",
+          "text": "Click Validate setup, save, and restart Play."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tip: Change one setting at a time so you can see what fixed the problem."
+        },
+        {
+          "type": "image",
+          "image": "images/chapter-14.png",
+          "caption": "Matching launcher references and preview fallback messages"
+        }
+      ]
+    },
+    {
+      "id": "chapter-15",
+      "title": "Final check",
+      "group": "INTEGRATION AND HELP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Check the complete player experience before sharing."
+        },
+        {
+          "type": "bullet",
+          "text": "Move both players onto one slot, then confirm and cancel."
+        },
+        {
+          "type": "bullet",
+          "text": "Try keyboard, controllers, CPU selection and reconnection."
+        },
+        {
+          "type": "bullet",
+          "text": "Check long names and portraits at your supported screen sizes."
+        },
+        {
+          "type": "bullet",
+          "text": "Test match travel in a packaged game."
+        },
+        {
+          "type": "image",
+          "image": "images/chapter-15.png",
+          "caption": "A finished selection screen ready for acceptance testing"
+        }
+      ]
+    }
+  ]
+}

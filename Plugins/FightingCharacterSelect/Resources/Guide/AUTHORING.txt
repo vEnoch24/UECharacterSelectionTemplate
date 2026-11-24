@@ -1,0 +1,60 @@
+CHARACTER SELECTION STUDIO GUIDE
+
+The guide opens automatically after editor initialization the first time a user
+opens a project with this plugin enabled. Opening Studio is not required.
+Reopen it with the Studio Guide button in the Studio toolbar. Closing the guide
+does not close Studio. The guide stays open independently when Studio closes.
+
+READING
+The left sidebar groups 15 chapters. Search checks titles and all instructions;
+multiple words must all occur somewhere in a chapter. Choose a result to open it.
+The buttons at the top of a chapter jump to its subsections. Previous and Next
+follow the complete chapter order and clear search. Back to top resets scrolling.
+The last chapter is remembered per project, separately from selection assets.
+
+ADDING SCREENSHOTS
+1. Create an images folder next to guide.json.
+2. Add a PNG using the path in the chapter's image block. For example, the first
+   chapter expects images/chapter-01.png. Paths are relative to this guide folder.
+3. Use Reload guide to load a newly added screenshot. If replacing an already
+   loaded image at the same path, close and reopen the guide to refresh its resource.
+4. Update its caption in guide.json to describe what the user should look for.
+
+Missing or unreadable PNGs show a reserved illustration area with the caption.
+Loaded pictures preserve their aspect ratio inside a 300-unit-high area. Use
+focused, readable crops rather than an entire desktop with tiny labels.
+PNG files must be inside Resources/Guide; external paths are not accepted.
+The guide and its screenshots are included by Config/FilterPlugin.ini.
+
+EDITING AND EXTENDING THE CONTENT
+Use a short introduction, clear action steps and a brief tip only when helpful.
+Vary the number of steps to suit the task; there is no fixed sentence count.
+Keep sentences short and put one action or idea on each line.
+Use images and short captions for extra clarity instead of long paragraphs.
+
+guide.json is UTF-8 JSON. No C++ rebuild is needed for content edits. Its chapters
+array controls the order. Keep each chapter id unique and stable, because it is
+used to restore the user's reading position. title is the sidebar/display title;
+group adds a sidebar heading. blocks is the ordered list of chapter content.
+
+Supported blocks:
+  { "type": "heading", "text": "Configure your camera" }
+  { "type": "paragraph", "text": "Choose your preview target first." }
+  { "type": "bullet", "text": "Save and test in Play." }
+  { "type": "image", "image": "images/camera.png", "caption": "Camera framing" }
+
+You can insert several image blocks anywhere among the paragraphs, not just at
+the end. A heading automatically creates a subsection jump button. Numbered steps
+are paragraph text beginning with their number. Text is plain text, not Markdown
+or HTML. Escape quotes and newlines using JSON syntax. Reload guide after editing.
+If loading fails, the window shows recovery instructions and retains Reload guide.
+
+FIRST OPEN PREFERENCE
+StartupGuideShownOnce and LastChapter are stored in the CharacterSelectionStudioGuide section
+of Unreal's per-project editor settings (GEditorPerProjectIni). They do not affect
+runtime assets or ship as gameplay preferences. To test onboarding again, close
+the editor and remove StartupGuideShownOnce from that local section or set it to False.
+Automated/unattended sessions do not trigger onboarding or update reading position.
+
+The Word guide is the initial source of this content. Later changes to the Word
+file do not automatically synchronize guide.json; maintain the reader content here.
