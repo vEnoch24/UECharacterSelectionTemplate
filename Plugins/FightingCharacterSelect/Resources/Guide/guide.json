@@ -8,7 +8,15 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Choose what you want to edit."
+          "text": "Open Studio from the Unreal Editor's top menu."
+        },
+        {
+          "type": "bullet",
+          "text": "Go to Tools > Character Selection > Character Selection Studio."
+        },
+        {
+          "type": "bullet",
+          "text": "Click Studio Guide in the Studio toolbar to reopen this guide."
         },
         {
           "type": "bullet",
